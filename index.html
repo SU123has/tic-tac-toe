@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 id="main-title">Tic-Tac-Toe</h1>
+    </header>
+    <main>
+      <div class="user-input">
+        <form id="nameForm">
+          <div class="first-player">
+            <label for="name">User X Name: </label>
+            <input type="text" id="name1" name="name" />
+          </div>
+          <div class="second-player">
+            <label for="name">User O Name: </label>
+            <input type="name" id="name2" name="name" />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="container">
+        <button class="box" id="btn0"></button>
+        <button class="box" id="btn1"></button>
+        <button class="box" id="btn2"></button>
+        <button class="box" id="btn3"></button>
+        <button class="box" id="btn4"></button>
+        <button class="box" id="btn5"></button>
+        <button class="box" id="btn6"></button>
+        <button class="box" id="btn7"></button>
+        <button class="box" id="btn8"></button>
+      </div>
+      <div class="control-panel">
+        <div class="msg-box"><p></p></div>
+        <button class="newGame">New Game</button>
+      </div>
+    </main>
+    <div class="footer">
+      <button class="reset">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

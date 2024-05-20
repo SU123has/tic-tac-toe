@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #613dc1;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-title {
+  font-size: 50px;
+  font-weight: bolder;
+  user-select: none;
+  color: white;
+}
+
+body main {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-input {
+  border-radius: 40px;
+  background-color: rgb(255, 189, 189);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-input form .first-player {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.user-input form .second-player {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.user-input form input {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 5px 5px 5px 15px;
+  font-size: 20px;
+}
+
+.user-input form button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #caadff;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.user-input form button:hover {
+  background-color: #b086fd;
+  cursor: pointer;
+}
+
+.user-input form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.control-panel {
+  border-radius: 40px;
+  background-color: rgb(255, 189, 189);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.control-panel .msg-box {
+  height: 100px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.595);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.control-panel button {
+  background-color: rgb(245, 139, 59);
+  outline: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  border: 2px solid red;
+  padding: 5px;
+}
+
+.control-panel button:hover {
+  background-color: rgb(252, 109, 0);
+  cursor: pointer;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(200, 168, 231);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(120, 37, 120);
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.box:hover {
+  background-color: rgb(191, 130, 249);
+  transition: 0.8s all ease;
+}
+
+#btn0 {
+  border-top-left-radius: 10px;
+}
+
+#btn2 {
+  border-top-right-radius: 10px;
+}
+
+#btn6 {
+  border-bottom-left-radius: 10px;
+}
+
+#btn8 {
+  border-bottom-right-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.reset {
+  background-color: rgb(181, 246, 83);
+  outline: none;
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  border: 2px solid green;
+}
+
+.reset:hover {
+  background-color: rgb(151, 208, 65);
+}
+
+.circle-selected {
+  color: rgb(1, 119, 1);
+}
+
+.cross-selected {
+  color: rgb(160, 1, 1);
+}
